@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "42046420-017f-4379-9880-6850fa31dc8b",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20297693"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "usergetid",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDYwMDYyMiwiZXhwIjoxNjU0NjgwNjIyfQ.oyX2hsSIObWnPPR2JG64Rp_SRb9z6U-z1hNeLwUbm2U",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/test/16",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userupdate",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDYwMDYyMiwiZXhwIjoxNjU0NjgwNjIyfQ.oyX2hsSIObWnPPR2JG64Rp_SRb9z6U-z1hNeLwUbm2U",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"arshad1\",\r\n    \"password\":\"arshad11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/test/16",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"16"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "moderator",
+			"item": [
+				{
+					"name": "moderatorgetallser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDYwMTc3OSwiZXhwIjoxNjU0NjgxNzc5fQ.ZPsONca9t2OONA8cBtLyGUKFJpu5jBPU-zhkJiMbkyw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/test/all",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "moderatorgetiduser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDYwMTc3OSwiZXhwIjoxNjU0NjgxNzc5fQ.ZPsONca9t2OONA8cBtLyGUKFJpu5jBPU-zhkJiMbkyw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/test/15",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"test",
+								"15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getalluserbiodata",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-accsess-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjU0NjAzNTkzLCJleHAiOjE2NTQ2ODM1OTN9.YaQ3PYlfWdFSmCG_f2m4znWP80gJMqx9B6p6KNJHUMk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/biodata/all",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"biodata",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getidbiodata",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDYwMzM0NywiZXhwIjoxNjU0NjgzMzQ3fQ.TgSQ1Bq75uqJnNYjb890oDW4ALKt2G2llwJUOWxW0DU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/biodata/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"biodata",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"arshad\",\r\n    \"email\":\"arshadgmail.com\",\r\n    \"password\":\"arshad11\",\r\n    \"roles\":[\"user\",\"moderator\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/aut/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"aut",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"arshad\",\r\n    \"password\":\"arshad11\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/aut/auth/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"aut",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendemail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTYsImlhdCI6MTY1NDc0Nzg2NywiZXhwIjoxNjU0ODI3ODY3fQ.i2W99aeDLbydsxIPObJROPAoZtkP9GkSoxg5j2p1ERs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"shandyabc313@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
